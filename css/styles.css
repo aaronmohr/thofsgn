@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "AHAMONO-Regular";
+    src: url(ahamono.ttf);
+}
+
+html body {
+    margin: 0px 20px;
+    max-width: 1080px;
+    padding: 0;
+    background-color: black;
+    color: #D6D61D;
+    font-family: AHAMONO-Regular;
+    font-weight: 100;
+}
+
+.header {
+    margin-top: 150px;
+}
+
+.header img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 16pt;
+    text-align: center;
+    margin: 0px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 16pt;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #D6D61D;
+    text-decoration: none;
+}
+
+.section {
+    margin-top: 150px;
+    border-top: solid 2px #D6D61D;
+}
+
+.section img {
+    width: 100%;
+}
+
+.video {
+    margin: 50px 0px;
+}
+
+footer {
+    margin-bottom: 150px;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 48em) and (max-width: 75em) {
+    .header img {
+        width: 50%;
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 75em) {
+    
+    .header img {
+        width: 50%;
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .header {
+        margin-top: 150px;
+        width: 100%;
+    }
+    
+    html body {
+        margin: auto;
+    }
+    
+}
