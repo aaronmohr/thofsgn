@@ -1,3 +1,0 @@
- AuthUserFile .htpasswd 
- AuthName "index.html" 
- AuthType Basic  require valid-user
